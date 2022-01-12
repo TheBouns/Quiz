@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1 style="text-align: center;">Quiz</h1>
+  </head>
+  <body>
+    <h1 style="text-align: center">Quiz</h1>
     <form name="quiz">
-        <div id="question"></div>
-        <div id="response1"></div>
-        <div id="response2"></div>
-        <div id="response3"></div>
-        <div id="response4"></div>
-        <div id="response5"></div>
-        <button>Next</button>
+      <div id="question"></div>
+      <div id="results">
+        <p id="rigth"></p>
+        <p id="false"></p>
+      </div>
+      <button onclick="start()">Start</button>
     </form>
-    
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
