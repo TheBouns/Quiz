@@ -5,17 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="mains.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans+Narrow&display=swap"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans+Narrow&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    rel="stylesheet" />
   </head>
   <body>
-    <h1 style="text-align: center">Quiz</h1>
-    <form name="quiz">
+    <div id="quiz" name="quiz">
       <div id="question"></div>
-      <div id="results">
-        <p id="rigth"></p>
-        <p id="false"></p>
+      <div id="response"></div>
+      <div id="counter">
+        <div id="right" style="width: 50%; border-radius: 10px">0</div>
+        <div id="tries" style="width: 50%">0</div>
       </div>
-      <button onclick="start()">Start</button>
-    </form>
+    </div>
+    <footer>Made with love By Alex</footer>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
