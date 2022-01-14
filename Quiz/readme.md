@@ -9,4 +9,4 @@ La duracion del juego(como indica el propio titulo), no tiene una duracion limit
 
 
 
-![image](./imagenes/imagenPrincipal.png) ![image](./imagenes/imagen.png) 
+![image](./imagenes/imagenPrincipal.png) ![image](./imagenes/imagen2.png) 
