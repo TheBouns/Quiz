@@ -10,7 +10,7 @@ aqui se pueden ver diferentes imagenes del responsive.
 
 ## 	:hammer: Construido con : 
 
--HTML
--JavaScript
--Css
--Axios
+- HTML
+- JavaScript
+- Css
+- Axios
