@@ -8,7 +8,7 @@ como dato curioso decir que los divs de las respuestas se generan en el DOM a pa
 El problema surge en la funcion myValue().Donde los dos parametros para la validadicion de la respuesta, quedaba expuesto al inspeccionar la pagina. Para protegar la integridad del juego y no sospechar de la etica del jugador. Se decidio encriptar el valor de la varible CorrectAns mediante el uso de **window.atob/btoa()**.
 
 ##### Encriptacion de la variable CorrectAns: 
-´´´js
+`` `js
 const getAnswers = async function (data) {
   let correctAns = data.correct_answer;
   let encondedCorrectAns = window.btoa(correctAns);
@@ -20,7 +20,7 @@ for (let i = 0; i < answer.length; i++) {
   }
 };
   
-´´´
+`` `
 #### Y aqui la devolvemos a la normalidad:
 ~~~~
 function myvalue(value, correctAns) {
