@@ -4,4 +4,4 @@ Este proyecto presenta el desarrollo de un quiz infinito.
 La pagina d
 
 
-![Link](/imagenes/imagenPrincipal)
+![image](/imagenes/imagenPrincipal)
