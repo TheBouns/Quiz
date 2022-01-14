@@ -9,6 +9,10 @@ El problema surge en la funcion myValue().Donde los dos parametros para la valid
 
 ##### Encriptacion de la variable CorrectAns: 
 ~~~
+const getAnswers = async function (data) {
+  let correctAns = data.correct_answer;
+  let encondedCorrectAns = window.btoa(correctAns);
+  
 for (let i = 0; i < answer.length; i++) {
     document.getElementById(
       "response"
