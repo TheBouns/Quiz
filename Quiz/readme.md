@@ -16,7 +16,7 @@ El problema surge en la funcion myValue().Donde los dos parametros para la valid
 for (let i = 0; i < answer.length; i++) {
     document.getElementById(
       "response"
-    ).innerHTML += `<div id="answer${i}" onclick=" myvalue('${answer[i]}' ,'${encondedCorrectAns}')" >${answer[i]}</div>`;
+    ).innerHTML += <div id="answer${i}" onclick=" myvalue('${answer[i]}' ,'${encondedCorrectAns}')" >${answer[i]}</div>;
   }
 };
   
