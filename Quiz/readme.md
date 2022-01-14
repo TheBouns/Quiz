@@ -7,3 +7,10 @@ La duracion del juego(como indica el propio titulo), no tiene una duracion limit
 ![image](./imagenes/imagenPrincipal2.png)!   ![image](./imagenes/responsive3.png) 
 
 aqui se pueden ver diferentes imagenes del responsive.
+
+## 	:hammer: Construido con : 
+
+-HTML
+-JavaScript
+-Css
+-Axios
